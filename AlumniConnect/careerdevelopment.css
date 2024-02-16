@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+p {
+  color: #5d6169;
+}
+
 header {
   max-width: 100%;
   background: #f8f8f8;
@@ -15,6 +19,7 @@ h2,
 h3 {
   font-family: 'Lora', serif;
   text-align: center;
+  color: #658cc2;
 }
 
 main {
@@ -100,6 +105,31 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+form input[type='email'] {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+form button[type='submit'] {
+  background-color: #658cc2;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+form button[type='submit']:hover {
+  background-color: #054bb4;
+  color: #fff;
+  transform: translateY(-2px);
 }
 
 .event:hover {
