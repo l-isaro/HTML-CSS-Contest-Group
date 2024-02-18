@@ -353,4 +353,50 @@ a:hover{
   .box2 p{
     color: #658cc2;
   }
+  .box button{
+    background-color: #f1f1f1;
+    border: none;
+    position: absolute;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    justify-content: center;
+  }
+  .box button:hover{
+    color: rgb(40, 40, 243);
+    padding: 10px;
+    border-color: rgb(40, 40, 243);
+    border: rgb(40, 40, 243);
+
+  }
+  .box1 button{
+    background-color: #f1f1f1;
+    border: none;
+    position: absolute;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    justify-content: center;
+  }
+  .box1 button:hover{
+    color: rgb(40, 40, 243);
+    padding: 10px;
+    border-color: rgb(40, 40, 243);
+    border: rgb(40, 40, 243);
+  }
+  .box2 button{
+    background-color: #f1f1f1;
+    border: none;
+    position: absolute;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    justify-content: center;
+  }
+  .box2 button:hover{
+    color: rgb(40, 40, 243);
+    padding: 10px;
+    border-color: rgb(40, 40, 243);
+    border: rgb(40, 40, 243);
+  }
   
