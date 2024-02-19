@@ -366,6 +366,12 @@ a:hover {
 .event img {
   width: 100%;
 }
+
+.Team {
+  display: flex;
+  justify-content: center;
+}
+
 h2 {
   font-family: 'DM Serif Display', serif;
   text-align: center;
