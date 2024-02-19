@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
 
+
 body {
   padding: 0;
   margin: 0;
 }
+
 
 h1,
 h2,
@@ -11,14 +13,17 @@ h3 {
   font-family: 'DM Serif Display', serif;
 }
 
+
 header {
   max-width: 100%;
 }
+
 
 p,
 a {
   font-family: 'dm sans', sans-serif;
 }
+
 
 .nav-container {
   display: flex;
@@ -28,6 +33,7 @@ a {
   font-weight: 400;
 }
 
+
 .dropbtn {
   padding: 16px;
   font-size: 16px;
@@ -36,10 +42,12 @@ a {
   font-weight: 700;
 }
 
+
 .dropdown {
   position: relative;
   display: inline-block;
 }
+
 
 .dropdown-content {
   display: none;
@@ -51,6 +59,7 @@ a {
   z-index: 1;
 }
 
+
 .dropdown-content a {
   color: #fff;
   padding: 12px 16px;
@@ -58,9 +67,11 @@ a {
   display: block;
 }
 
+
 h1 a {
   color: #fff;
 }
+
 
 nav ul {
   display: flex;
@@ -70,39 +81,46 @@ nav ul {
   padding-top: 1em;
 }
 
+
 a {
   text-decoration: none;
   color: #658cc2;
   font-family: 'Ubuntu', sans-serif;
 }
 
+
 .current-page {
   border-bottom: 2px solid #fff;
   padding: 10px 0;
 }
 
+
 a:hover {
   color: #054bb4;
 }
+
 
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 
 .dropdown:hover .dropbtn {
   color: #054bb4;
 }
 
+
 .foo {
-  padding-top: 50px;
   background: #f8f8f8;
+  height: 220px;
 }
 .footer-container {
-  width: 1140px;
+  width: 1000px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -111,18 +129,20 @@ a:hover {
   width: 33.3%;
 }
 h3 {
-  font-size: 28px;
-  margin-bottom: 15px;
+  font-size: 20px;
+  margin-bottom: 10px;
   text-align: center;
   color: #658cc2;
 }
 
+
 .footer-content p {
-  width: 190px;
+  width: 120px;
   margin: auto;
-  padding: 7px;
+  padding: 5px;
   color: #658cc2;
 }
+
 
 .footer-content ul {
   text-align: center;
@@ -134,7 +154,7 @@ h3 {
   width: auto;
   text-align: center;
   list-style-type: none;
-  padding: 7px;
+  padding: 5px;
   position: relative;
 }
 .list li::before {
@@ -161,7 +181,7 @@ h3 {
   padding: 5px;
 }
 .social-icons i {
-  color: #f1f1f1;
+  color: black;
   font-size: 25px;
 }
 a {
@@ -176,8 +196,8 @@ a:hover {
 .bottom-bar {
   background: #f1f1f1;
   text-align: center;
-  padding: 10px 0;
-  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 27px;
 }
 .bottom-bar p {
   color: #658cc2;
@@ -188,6 +208,7 @@ a:hover {
 .container {
   position: relative;
 }
+
 
 .background-element {
   position: absolute;
@@ -201,12 +222,14 @@ a:hover {
   filter: brightness(50%);
 }
 
+
 .bg-image {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url('https://www.estate-living.co.za/wp-content/uploads/2021/08/sa-uni-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 
 .sec1 {
   padding: 10% 4% 15% 8%;
@@ -240,9 +263,11 @@ a:hover {
   padding: 10px 30px;
 }
 
+
 .sec1 button a {
   color: white;
 }
+
 
 .btn {
   padding-top: 5%;
@@ -275,11 +300,12 @@ a:hover {
   height: 75%;
 }
 
+
 /* ////////////////// Anne's codes  //////////////////////////*/
 .obj {
   background-color: #f1f1f1;
   justify-content: space-between;
-  padding: 30px;
+  padding: 10px;
   max-width: 100%;
   /* margin: 10rem auto 0 auto; */
   display: flex;
@@ -294,8 +320,9 @@ a:hover {
   font-weight: 550;
 }
 .obj img {
-  width: 500px;
-  height: 13cm;
+  width: 400px;
+  height: 8cm;
+  margin-top: 10%;
 }
 .obj h4 {
   font-size: 28px;
@@ -308,114 +335,22 @@ a:hover {
   padding: 7px;
   margin-right: 15px;
 }
+.event {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+}
 
-.events {
-  max-width: 500%;
-  width: 500px;
-  height: 400px;
-  margin-top: 50px;
-  display: flex;
-  margin-left: 200px;
+
+.upcoming-events {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
-.events img {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.box {
-  margin: 15px;
-  width: 800px;
-  height: 400px;
-  box-shadow: -1px 0 10px #000000;
-  align-items: center;
-  justify-content: center;
+h2{
+  font-family: 'DM Serif Display', serif;
   text-align: center;
-}
-.box1 {
-  margin: 15px;
-  width: 800px;
-  height: 400px;
-  box-shadow: -1px 0 10px #000000;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.box2 {
-  margin: 15px;
-  width: 800px;
-  height: 400px;
-  box-shadow: -1px 0 10px #000000;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-h6 {
-  text-align: center;
-  font-size: 30px;
-  color: #658cc2;
-}
-.box h5 {
-  color: #658cc2;
-}
-.box p {
-  color: #658cc2;
-}
-.box1 h5 {
-  color: #658cc2;
-}
-.box1 p {
-  color: #658cc2;
-}
-.box2 h5 {
-  color: #658cc2;
-}
-.box2 p {
-  color: #658cc2;
-}
-.box button {
-  background-color: #f1f1f1;
-  border: none;
-  position: absolute;
-  padding: 5px;
-  font-size: 10px;
-  font-weight: bold;
-  justify-content: center;
-}
-.box button:hover {
-  color: rgb(40, 40, 243);
-  padding: 10px;
-  border-color: rgb(40, 40, 243);
-  border: rgb(40, 40, 243);
-}
-.box1 button {
-  background-color: #f1f1f1;
-  border: none;
-  position: absolute;
-  padding: 5px;
-  font-size: 10px;
-  font-weight: bold;
-  justify-content: center;
-}
-.box1 button:hover {
-  color: rgb(40, 40, 243);
-  padding: 10px;
-  border-color: rgb(40, 40, 243);
-  border: rgb(40, 40, 243);
-}
-.box2 button {
-  background-color: #f1f1f1;
-  border: none;
-  position: absolute;
-  padding: 5px;
-  font-size: 10px;
-  font-weight: bold;
-  justify-content: center;
-}
-.box2 button:hover {
-  color: rgb(40, 40, 243);
-  padding: 10px;
-  border-color: rgb(40, 40, 243);
-  border: rgb(40, 40, 243);
+  color: black;
 }
