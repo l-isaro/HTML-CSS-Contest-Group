@@ -49,6 +49,9 @@ main {
   margin-bottom: 40px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 .main-container {
   width: 50%;
 }

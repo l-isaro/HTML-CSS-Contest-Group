@@ -23,7 +23,7 @@ p {
 a {
   font-family: 'dm sans', sans-serif;
 }
-#footer{
+html{
   scroll-behavior: smooth;
 }
 .nav-container {
