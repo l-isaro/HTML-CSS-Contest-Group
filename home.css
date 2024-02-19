@@ -23,7 +23,7 @@ p {
 a {
   font-family: 'dm sans', sans-serif;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 .nav-container {
@@ -236,31 +236,27 @@ a:hover {
   align-content: center;
   color: white;
 }
-.sec2 p {
-  padding: 7% 0 5% 15%;
-  font-size: 20px;
-  font-weight: 300;
-  margin-right: 30%;
-  color: #5d6169;
-}
+
 .aim {
-  background-color: #f1f1f1;
   display: flex;
-  padding: 0 10%;
-  justify-content: space-between;
+  padding: 3em;
+  align-items: center;
 }
+
+.aim p {
+  width: 50%;
+  margin-left: 50px;
+  font-size: 2rem;
+  color: black;
+}
+
 .aim img {
-  padding-left: 55%;
-  padding-top: 13%;
-  width: 65%;
-  height: 75%;
+  width: 60%;
 }
+
 #up-events {
   margin-top: 20px;
-  padding: 20px;
-  background-color: #f0f0f0;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  padding: 0 20px;
 }
 .sec1 button {
   font-family: 'DM Sans', sans-serif;
@@ -314,24 +310,6 @@ a:hover {
   border: none;
 }
 
-.obj {
-  background-color: white;
-  justify-content: space-between;
-  padding: 10px;
-  max-width: 100%;
-  /* margin: 10rem auto 0 auto; */
-  display: flex;
-  flex-direction: right;
-}
-.text {
-  text-align: center;
-}
-.text span {
-  font-family: 'DM Serif Display', serif;
-  color: black;
-  font-size: larger;
-  font-weight: 550;
-}
 .obj img {
   width: 400px;
   height: 8cm;
@@ -367,9 +345,29 @@ a:hover {
   width: 100%;
 }
 
-.Team {
+.team-section {
+  background: #f8f8f8;
+  padding: 5%;
+  margin-bottom: -40px;
+}
+
+.about {
+  padding: 2% 5%;
+}
+
+.team-1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.team-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-3 {
+  display: flex;
+  justify-content: space-around;
 }
 
 h2 {
