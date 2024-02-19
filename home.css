@@ -23,7 +23,9 @@ p {
 a {
   font-family: 'dm sans', sans-serif;
 }
-
+#footer{
+  scroll-behavior: smooth;
+}
 .nav-container {
   display: flex;
   justify-content: space-between;
